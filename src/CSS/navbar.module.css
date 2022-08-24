@@ -1,0 +1,50 @@
+.main_div {
+
+    display : flex;
+    justify-content: space-around;
+    /* border:1px solid grey; */
+    box-shadow:  rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;;
+    gap:80px;
+    align-items: center;
+    width:100%;
+    /* position: fixed;  */
+     font-family:Untitled serif, Arial, Helvetica, sans-serif ;
+   
+}
+
+.left_div{
+    display : flex;
+    justify-content: space-evenly;
+    gap:8px;
+    /* border:1px solid ; */
+     align-items: center;
+     margin: 20px;
+     
+}
+.left_div >div {
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height : 26px;
+    
+    
+}
+
+.left_div >div :hover {
+    color: #4cb398;
+    text-decoration: underline;
+}
+.greenhouse > Link {
+    font-size: 18px;
+    color: #15372c;
+    font-weight: 400;
+}
+
+
+.right_div{
+    display : flex;
+    justify-content: space-evenly;
+    gap:30px;
+    /* border:1px solid ; */
+    align-items: center;
+}
