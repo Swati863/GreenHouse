@@ -1,0 +1,17 @@
+
+.main_div {
+    display : flex;
+    /* border:1px solid white ; */
+    gap:80px;
+    align-items: center;
+    width:100%;
+    background-color: #15372c;
+    padding: 50px;
+    font-family:Untitled Serif, Georgia, serif ;
+    font-weight: 400;
+
+}
+
+.first_div{
+    margin-top:100px;
+}
