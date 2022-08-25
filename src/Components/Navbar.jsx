@@ -4,6 +4,9 @@ import { Icon } from '@chakra-ui/react'
 import  {Button, Search2Icon } from '@chakra-ui/react'
 import style from "../CSS/navbar.module.css"
 import Products from '../Pages/Products'
+import Resources from '../Pages/Resources'
+import AboutUs from '../Pages/AboutUs'
+import Community from '../Pages/Community'
 
 
 const Navbar = () => {
@@ -13,14 +16,13 @@ const Navbar = () => {
         {/* left div */}
       <div className={style.left_div}>
       <div> <Link to="/"> <img src="https://www.greenhouse.io/assets/svg/logo.svg" /></Link> </div>
-      {/* <div> <Link to="/Products">Products & solutions</Link> </div> */}
-      <div> 
-        <Products />
-        {/* <Link to="/Products">Products & solutions</Link>  */}
-        </div>
-      <div> <Link to="/Resources">Resources</Link> </div>
-      <div> <Link to="/AboutUs">About Us</Link> </div>
-      <div> <Link to="/Community">Community</Link> </div>
+      <div>  <Products /> </div>
+      <div> <Resources /> </div>
+      <div><AboutUs /> </div>
+      <div> <Community />   </div>
+      {/* <div> <Link to="/Resources">Resources</Link> </div> */}
+      {/* <div> <Link to="/AboutUs">About Us</Link> </div>
+      <div> <Link to="/Community">Community</Link> </div> */}
       </div>
 
       {/* right div */}

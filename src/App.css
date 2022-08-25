@@ -11,6 +11,7 @@
 
 .App {
   text-align: center;
+  position: relative;
 }
 
 .App-logo {

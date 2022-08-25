@@ -22,14 +22,6 @@ const Products = () => {
   return (
     <div>
       
-      {/* <RadioGroup defaultValue={placement} onChange={setPlacement}>
-        <Stack direction='row' mb='4'>
-          <Radio value='top'>Top</Radio>
-          <Radio value='right'>Right</Radio>
-          <Radio value='bottom'>Bottom</Radio>
-          <Radio value='left'>Left</Radio>
-        </Stack>
-      </RadioGroup> */}
       <Button colorScheme='white' color={"grey"} fontWeight={400} onClick={onOpen} >
       Products & solutions
       </Button>
