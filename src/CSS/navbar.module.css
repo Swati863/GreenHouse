@@ -7,8 +7,10 @@
     gap:80px;
     align-items: center;
     width:100%;
-    /* position: fixed;  */
+    position: fixed; 
      font-family:Untitled serif, Arial, Helvetica, sans-serif ;
+     z-index: 1;
+     background-color: white;
    
 }
 

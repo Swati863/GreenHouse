@@ -1,17 +1,67 @@
 
+
+/* product-css-ends */
 .main_div {
     display : flex;
-    /* border:1px solid white ; */
+    /* border:1px solid white ; */  
     gap:80px;
-    align-items: center;
+    align-items: right;
     width:100%;
     background-color: #15372c;
-    padding: 50px;
+    padding: 80px;
     font-family:Untitled Serif, Georgia, serif ;
     font-weight: 400;
+    
 
 }
 
 .first_div{
     margin-top:100px;
 }
+/* product-css-ends */
+
+/* Resource-css-starts */
+
+.m_div{
+
+   
+        display : flex;
+        align-items: right;
+        width:100%;
+        background-color: #15372c;
+        
+        font-family:Untitled Serif, Georgia, serif ;
+        font-weight: 400;
+}
+
+
+
+
+.f_div{
+    margin:120px;
+     padding: 40px;
+    /* border:1px solid white ; */
+    border-right: 0.5px solid aquamarine;
+   
+}
+
+.image_div{
+    padding:20px;
+    /* border:1px solid white ; */
+}
+
+.para_div{
+    width:60%;
+    margin-top:100px;
+    display: flex;
+    gap:30px;
+     justify-content: space-around;
+     /* border:1px solid white ; */
+      
+}
+
+.parain_div{
+    padding: 60px;
+ /* border:1px solid white ; */
+}
+/* Resource-css-ends */
