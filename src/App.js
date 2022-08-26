@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import Greenhouse from './Pages/Greenhouse';
 import AllRoutes from './Components/AllRoutes';
 import { useEffect } from 'react';
+import Footer from './Components/Footer';
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <Navbar />
       {/* <Greenhouse /> */}
       <AllRoutes />
+    
      
     </div>
   );
