@@ -2,15 +2,10 @@ import React from 'react'
 import {
   Drawer,
   DrawerBody,
-  DrawerFooter,
-  DrawerHeader,
   DrawerOverlay,
   DrawerContent,
-  DrawerCloseButton,
   Button,
   useDisclosure,
-  Input,
-  Container,
   Text,
   Image
 } from '@chakra-ui/react'

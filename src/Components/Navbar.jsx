@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, Navigate, useNavigate } from 'react-router-dom'
 import { Icon } from '@chakra-ui/react'
 import  {Button, Search2Icon } from '@chakra-ui/react'
 import style from "../CSS/navbar.module.css"
@@ -10,6 +10,9 @@ import Community from '../Pages/Community'
 
 
 const Navbar = () => {
+  const navigate = useNavigate()
+
+
    
   return (
     <div className={style.main_div}>
@@ -32,7 +35,7 @@ const Navbar = () => {
         </div>
 
         <div>
-            <Button colorScheme='blue' borderRadius={50} padding={6}>Request a Demo</Button>
+            <Button colorScheme='blue' borderRadius={50} padding={6} onClick={()=>{ navigate("/DemoPage")}  }>Request a Demo</Button>
         </div>
 
         <div>
@@ -41,6 +44,7 @@ const Navbar = () => {
         </div>
 
       </div>
+      
     </div>
   )
 }

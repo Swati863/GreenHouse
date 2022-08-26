@@ -1,0 +1,42 @@
+
+.footermain_div{
+    background-color: #15372c;
+      display:grid;
+      grid-template-columns: repeat(4,1fr);
+      padding: 90px;
+       row-gap: 50px;
+       text-align: left;
+
+    /* border: 5px solid red; */
+
+}
+.first_div{
+    background-color: #15372c;
+    gap:20px;
+}
+
+.fourth_seg >div{
+    color:white;
+    padding:20px;
+}
+.fourth_seg >div >h2{
+    color:white;
+    
+    font-size: large;
+}
+
+.fourth_seg >div>p {
+    font-size: 15px;
+    color:white
+
+}
+label{
+ 
+    font-size: 14px;
+    text-align: left;
+}
+
+input{
+    padding: 16px 40px 16px 40px;
+    border-radius: 5px;
+}
